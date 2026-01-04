@@ -4,6 +4,40 @@ Folha estilo para GreySpace+
 matos.daniele@gmail.com
 */
 
-body {
-    background-color: rgb(220, 240, 189);
+/*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (max-width: 576px) and (orientation: portrait) {
+    body {
+        background-color: rgb(220, 240, 189);
+    }
+}
+
+/*Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 576px) and (max-width: 768px) and (orientation: landscape) {
+    body {
+        background-color: rgb(189, 220, 240);
+    }
+}
+
+/*Table Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media (min-width: 768px) and (max-width: 992px) and (orientation: portrait) {
+    body {
+        background-color: rgb(240, 189, 220);
+    }
+}
+
+/*Table Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media (min-width: 992px) and (max-width: 1200px) and (orientation: landscape) {
+    body {
+        background-color: rgb(240, 220, 189);
+    }
+}
+
+/*PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media (min-width: 1200px) {
+    body {
+        background-color: rgb(220, 189, 240);
+    }
 }
