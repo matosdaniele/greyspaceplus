@@ -5,7 +5,7 @@ Projeto 60+ UniSenac
 ### planejamento
 Briefing
 [canva](https://www.canva.com/pt_pt/modelos/s/briefing/)
-|[miro](https://miro.com/pt/modelos/briefing-criativo/)
+| [miro](https://miro.com/pt/modelos/briefing-criativo/)
 
 SEO
 [palavra-chave](https://business.google.com/br/ad-tools/keyword-planner/)
@@ -24,9 +24,9 @@ Cores
 
 Imagens
 [image-freepik](https://www.freepik.com/icons?sign-up=google)
-|[image-icon](https://icon-icons.com/pt/)
-|[image-pixabay](https://pixabay.com/pt/)
-|[image-optimiza](https://imagecompressor.com/#google_vignette)
+| [image-icon](https://icon-icons.com/pt/)
+| [image-pixabay](https://pixabay.com/pt/)
+| [image-optimiza](https://imagecompressor.com/#google_vignette)
 
 Estrutura do site
 [validator-code](https://validator.w3.org/)

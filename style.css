@@ -4,6 +4,25 @@ Folha estilo para GreySpace+
 matos.daniele@gmail.com
 */
 
+body{
+  /*  background: 
+        linear-gradient(
+            rgba(255, 255, 255, 0.85),
+            rgba(255, 255, 255, 0.85)
+        ),
+        url("img/avos-em-desenho.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+*/
+    background-image: url("img/avos-em-desenho.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (max-width: 576px) and (orientation: portrait) {
     body {

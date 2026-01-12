@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreySpace+</title>
+    <meta name="description" content="Projeto 60+">
+    <link rel="icon" href="img/casal_idosos.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Cabeçalho do site-->
+    <header>
+        <h2>Em Construção...</h2>
+    </header>
+
+    <!--Destaque-->
+    <main>
+    <h1>Bem-vindo ao GreySpace+</h1>
+    <h2>Seu espaço dedicado ao bem-estar e qualidade de vida para a terceira idade.</h2>
+    </main>
+    
+    <!-- Sobre -->
+    <section>
+    <h2>Nosso objetivo é criar uma comunidade acolhedora onde pessoas com mais de 60 anos possam compartilhar experiências, aprender novas habilidades e encontrar apoio mútuo.</h2>
+    </section>   
+    
+    <!-- Onepage -->
+    <section>
+    <h2>Seções dedicadas a saúde, lazer, tecnologia e muito mais!</h2>
+    </section>
+    
+    <!-- Wideframe -->
+    <section>
+        <h2>Descubra como viver plenamente cada fase da vida!</h2>
+    </section>
+    
+    <!-- Conteúdo -->
+    <section>   
+        <h2>GreySpace+: Onde a experiência encontra a inovação.</h2>
+        <h3>Participe da nossa comunidade!</h3>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer>
+        <h2>Estamos preparando um site incrível com muitas novidades! Por isso, o contato está temporariamente indisponível. Em breve, tudo estará de volta!</h2>        
+    </footer>
+
+</body>
+</html>
+
