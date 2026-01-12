@@ -4,19 +4,13 @@ Folha estilo para GreySpace+
 matos.daniele@gmail.com
 */
 
-/*
-body{
-    background: 
-        linear-gradient(
-            rgba(255, 255, 255, 0.85),
-            rgba(255, 255, 255, 0.85)
-        ),
-        url("img/avos_desenho.png");
 
+body{
+    background-color: #f2f2f2;
+    background-image: url("img/avos_desenho.png");
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-*/
+    background-repeat: no-repeat;    
+}
 
 
 /*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -24,7 +18,7 @@ body{
     body{
     background-image: url("img/avos_desenho.png");
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 }
 
@@ -33,7 +27,7 @@ body{
      body{
     background-image: url("img/avos_desenho.png");
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 }
 
@@ -43,7 +37,7 @@ body{
     body{
     background-image: url("img/avos_desenho.png");
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 }
 
@@ -53,7 +47,7 @@ body{
     body{
     background-image: url("img/avos_desenho.png");
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 }
 
@@ -63,6 +57,6 @@ body{
     body{
     background-image: url("img/avos_desenho.png");
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 }
