@@ -4,59 +4,156 @@ Folha estilo para GreySpace+
 matos.daniele@gmail.com
 */
 
-
-body{
-    background-color: #f2f2f2;
+/*
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
     background-image: url("img/avos_desenho.png");
-    background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-size: 35%;
+    opacity: 0.2;
+    z-index: -1;
 }
 
+*/
+
+/*Layout*/
+.Container {
+    margin: 0 auto;
+}
+
+.Flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .Flex2 {
+    display: flex;
+    align-items: center;
+    }
+    
+ Flex3{
+    display: flex;
+    flex-direction: column; 
+    }   
 
 /*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (max-width: 576px) and (orientation: portrait) {
-    body{
+ /*
+    body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
     background-image: url("img/avos_desenho.png");
-    background-size: cover;
-    
-}
-}
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-size: 100%;
+    opacity: 0.2;
+    z-index: -1;
+
+    }*/
+    }
+/*OnePage*/
+#onepage{
+    padding: 50px 10px;
+    }
+#onepage h2{
+    margin-bottom: 10px;
+    }
+#video iframe {
+    width: 340px;
+    height: 191px;
+    }    
 
 /*Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px) and (max-width: 768px) and (orientation: landscape) {
-     body{
+ /*body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
     background-image: url("img/avos_desenho.png");
-    background-size: cover;
-    
-}
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-size: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}*/
+/*OnePage*/
+#video iframe {
+    width: 560px;
+    height: 315px;
+    }    
+
+
 }
 
 /*Table Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 @media (min-width: 768px) and (max-width: 992px) and (orientation: portrait) {
-    body{
+/* body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
     background-image: url("img/avos_desenho.png");
-    background-size: cover;
-    
-}
-}
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-size: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}*/
+/*OnePage*/
+#video iframe {
+    width: 560px;
+    height: 315px;
+    }    
 
+}
 /*Table Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 @media (min-width: 992px) and (max-width: 1200px) and (orientation: landscape) {
-    body{
+/* body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
     background-image: url("img/avos_desenho.png");
-    background-size: cover;
-    
-}
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-size: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}*/
+/*OnePage*/
+#video iframe {
+    width: 560px;
+    height: 315px;
+    }    
+
 }
 
 /*PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 @media (min-width: 1200px) {
-    body{
+/* body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
     background-image: url("img/avos_desenho.png");
-    background-size: cover;
-    
-}
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-size: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}*/
+/*OnePage*/
+#video iframe {
+    width: 560px;
+    height: 315px;
+    }    
+/*OnePage*/
+.Flex3{
+    flex-direction: row; 
+    align-items: center;
+    }   
 }
